@@ -1,0 +1,84 @@
+.navbar {
+  background-color: #f8f1e6;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 10px;
+  z-index: 1000;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+
+  ul {
+    width: 100%;
+    text-align: right;
+    justify-content: space-between;
+
+    li {
+      display: inline-block;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-family: "Poppins";
+        font-weight: 600;
+      }
+    }
+  }
+
+  .navbar-brand {
+    margin-left: 8%;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+    .logo {
+      @media (min-width: 576px) {
+        display: flex;
+      }
+    }
+  }
+}
+
+.nav-link:hover {
+  color: #44644b;
+}
+
+.page-scroll {
+  text-decoration: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbar-nav {
+    display: flex;
+  }
+
+  .nav-item {
+    padding: 0 10px;
+    display: inline-block;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    --navbar-height: 56px;
+    height: calc(100vh - var(--navbar-height));
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 320ms ease-in-out;
+  }
+}

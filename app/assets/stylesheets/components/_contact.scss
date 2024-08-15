@@ -1,0 +1,85 @@
+#contact {
+  background-image: asset-url('forestgreen.jpg');
+  background-position: center;
+  width: 100%;
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  .section-heading-contact {
+    color: #f8f1e6;
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+    font-family: 'Poppins';
+
+    input,
+    textarea {
+      padding: 20px;
+    }
+
+    input.form-control {
+      height: auto;
+    }
+
+    textarea.form-control {
+      height: 236px;
+    }
+  }
+}
+
+.form-label {
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.form-group {
+  color: #f8f1e6;
+  font-size: 15px;
+}
+
+.form-control {
+  background-color: #f8f1e6;
+  border-radius: 5px;
+}
+
+.btn-sub {
+  position: absolute;
+}
+
+.container-contact {
+  width: 45%;
+  padding: 25px;
+
+  @media (max-width: 1200px) {
+    width: 60%;
+  }
+
+  @media (max-width: 992px) {
+    width: 65%;
+  }
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+
+  @media (max-width: 576px) {
+    width: 75%;
+  }
+}
+
+.section-heading-contact {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.alert {
+  background-color: rgb(152, 190, 152);
+  border-radius: 6px;
+  color: black;
+  border-color: rgb(98, 146, 98);
+  font-family: 'Poppins';
+  font-weight: 'bold';
+}

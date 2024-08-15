@@ -43,7 +43,23 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
+
+gem "bootstrap", "~> 5.2"
+
+gem "font-awesome-sass", "~> 6.1"
+
+gem "simple_form"
+
+gem "autoprefixer-rails"
+
+gem 'ffi', '~> 1.15'
+
+gem 'rubygems-update', '~> 3.5', '>= 3.5.17'
+
+gem 'mailgun-ruby', '~>1.2.14'
+
+gem "dotenv-rails"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -60,4 +76,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-

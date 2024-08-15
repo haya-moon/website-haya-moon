@@ -1,0 +1,105 @@
+/* Footer */
+footer {
+  padding: 25px 0 !important;
+  text-align: center;
+  background-color: #f8f1e6;
+  width: 100%;
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    }
+}
+
+/* Social Buttons */
+ul.social-buttons {
+  margin-bottom: 0;
+
+  li {
+    a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      font-size: 40px;
+      line-height: 40px;
+      outline: 0;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+      color: #587d60;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: #44644b;
+      }
+    }
+  }
+}
+
+.btn {
+  &:focus,
+  &:active,
+  &:active:focus {
+    outline: 0;
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  footer {
+    padding: 25px 0;
+  }
+
+  ul.social-buttons li a {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 45px;
+    justify-content: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  footer {
+    padding: 25px 0;
+  }
+
+  ul.social-buttons li a {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  footer {
+    padding: 25px 0;
+  }
+
+  ul.social-buttons li a {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  footer {
+    padding: 25px 0;
+  }
+
+  ul.social-buttons li a {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+}

@@ -206,6 +206,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rubygems-update (3.5.17)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -281,6 +282,7 @@ DEPENDENCIES
   mailgun-ruby (~> 1.2.14)
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.4)
+  rubygems-update (~> 3.5, >= 3.5.17)
   sassc-rails
   simple_form
   sprockets-rails

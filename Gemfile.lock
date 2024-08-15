@@ -263,7 +263,7 @@ DEPENDENCIES
   bootstrap (~> 5.2)
   debug
   dotenv-rails
-  ffi (~> 1.17)
+  ffi (~> 1.15)
   font-awesome-sass (~> 6.1)
   importmap-rails
   jbuilder

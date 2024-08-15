@@ -9,6 +9,25 @@ gem "rails", "~> 7.0.8", ">= 7.0.8.4"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem "bootstrap", "~> 5.2"
+
+gem "font-awesome-sass", "~> 6.1"
+
+gem "simple_form"
+
+gem "autoprefixer-rails"
+
+# gem 'pg', '~> 1.2'
+
+gem 'ffi', '~> 1.15'
+
+gem 'rubygems-update', '~> 3.5', '>= 3.5.17'
+
+gem 'mailgun-ruby', '~>1.2.14'
+
+# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem "sprockets-rails"
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -44,20 +63,6 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 gem "sassc-rails"
-
-gem "bootstrap", "~> 5.2"
-
-gem "font-awesome-sass", "~> 6.1"
-
-gem "simple_form"
-
-gem "autoprefixer-rails"
-
-gem 'ffi', '~> 1.15'
-
-# gem 'rubygems-update', '~> 3.5', '>= 3.5.17'
-
-gem 'mailgun-ruby', '~>1.2.14'
 
 gem "dotenv-rails"
 

@@ -53,7 +53,7 @@ gem "simple_form"
 
 gem "autoprefixer-rails"
 
-gem 'ffi', '~> 1.15'
+gem 'ffi', '~> 1.17'
 
 gem 'rubygems-update', '~> 3.5', '>= 3.5.17'
 

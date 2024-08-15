@@ -1,7 +1,7 @@
 class ContactsController < ApplicationController
   def create
     @contact = Contact.new(contact_params)
-    if @contact.save
+    if @contact.valid?
       ContactMailer.contact_email(@contact).deliver_now
       flash[:success] = 'Your message has been sent!'
       redirect_to root_path

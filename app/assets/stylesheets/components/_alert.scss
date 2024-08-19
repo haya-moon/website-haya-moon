@@ -1,6 +1,18 @@
 .alert {
-  position: fixed;
+  background-color: rgb(152, 190, 152);
+  border-radius: 6px;
+  color: black;
+  border-color: rgb(98, 146, 98);
+  font-family: 'Poppins';
+  font-weight: 'bold';
   bottom: 16px;
   right: 16px;
   z-index: 1000;
+  position: fixed;
+
+  .alert.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    visibility: hidden;
+  }
 }

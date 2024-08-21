@@ -24,6 +24,8 @@ gem 'rubygems-update', '~> 3.5', '>= 3.5.17'
 
 gem 'mailgun-ruby', '~>1.2.14'
 
+gem 'rest-client'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
